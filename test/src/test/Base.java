@@ -1,6 +1,6 @@
 package test;
 
-class Base {
+/*class Base {
 private static void display() {
 System.out.println("Static or class method from Base");
 }
@@ -22,3 +22,4 @@ obj1.display();
 obj1.print();
 }
 }
+*/
