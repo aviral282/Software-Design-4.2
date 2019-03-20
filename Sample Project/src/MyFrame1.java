@@ -4,8 +4,6 @@ import java.awt.event.*;
 
 import javax.swing.*;
 
-import java.util.*; //This is new
-
 class MyFrame1 extends JFrame implements ActionListener{
 	private JLabel l0 = new JLabel("Search Person App");
 	

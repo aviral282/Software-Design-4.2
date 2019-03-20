@@ -1,8 +1,3 @@
-import java.awt.Graphics;
-import java.util.Date;
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
 import java.util.Scanner;
  
 

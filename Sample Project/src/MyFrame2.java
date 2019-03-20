@@ -2,7 +2,6 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import java.util.*; //This is new
 
 class MyFrame2 extends JFrame implements ActionListener{
 	private JLabel l0 = new JLabel("Person");

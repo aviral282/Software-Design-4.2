@@ -1,7 +1,5 @@
 
 
-import java.io.Serializable;
-
 
 //package Ex15;
 interface Visitor {	
