@@ -1,5 +1,6 @@
 class HashTable{
-	    public int hash(int id){ return id%10;}
+	    public int hash(int id)
+	    { return id%10;}
 	
         private HNode[] head=new HNode[10];
         
