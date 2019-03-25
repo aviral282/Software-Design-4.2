@@ -19,16 +19,34 @@ class MyFrameRecursionQ2 extends JFrame implements ActionListener {
 	ArrayList<Integer> arr = new ArrayList();
 
 	public static int sumDoubleDigit(ArrayList list) { // to be completed
-		int res = 0;
+		// int res = 0;
+		if (list.size() == 0)
+			return 0;
+		else {
+			int first = (int) list.get(0);
+			list.remove(0);
+			if (first > 9)
+				return first + sumDoubleDigit(list);
+			else
+				return 0 + sumDoubleDigit(list);
+		}
 
-		return res;
 	}
 
 	public static int countZeros(ArrayList list) { // to be completed
-		int res = 0;
+	//	int res = 0;
 
+		if (list.size() == 0)
+			return 0;
+		else {
+			int first = (int) list.get(0);
+			list.remove(0);
+			if (first == 0)
+				return 1 + countZeros(list);
+			else
+				return 0 + countZeros(list);
+		}
 
-		return res;
 	}
 
 	public MyFrameRecursionQ2(String s) {
