@@ -29,8 +29,10 @@ class MyFrameIteratorQ1 extends JFrame implements ActionListener{
 	
 	public     static int max(Octo o){              // to be completed
 		int res=0;
-		
-        return  res;
+	       Iterator value = o.iterator1();
+	       while(value.hasNext()){
+	         res+=(Integer)value.next();}    
+	        return  res;
  	   }
 	
 	public MyFrameIteratorQ1(String s){
