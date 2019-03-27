@@ -29,8 +29,27 @@ class MyFrameQ6 extends JFrame implements ActionListener {
 	/*
 	 * cv- organized, consistent, complete, current,
 	 * created, devised, enjoyed, relished, helped,negotiated, motivated
-	 * training and volunterring
+	 * training and volunteering
 	 * */
+	/*
+	 * sovial media
+	 * volunteer
+	 * reseach on the company
+	 * 
+	 * */
+	/*
+	 * Research th ecompany
+	 * review rhier website
+	 * know cv
+	 * dcide what to wear
+	 * know who you meet
+	 * 
+	 * */
+	/*
+	 * tell me about a time you worked in a team
+	 * tell me about a time you prove excellent cutomer experience
+	 * */
+	
 	public static int countGreater(ArrayList list, int tar) { 
 		if (list.size() == 0)
 			return 0;
