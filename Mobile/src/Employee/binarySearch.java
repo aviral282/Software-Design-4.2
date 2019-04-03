@@ -55,8 +55,7 @@ public class binarySearch {
 		DefaultTableModel model = new DefaultTableModel();
 		model.setColumnIdentifiers(heading);
 		if (n.left != null) {
-			// str += "Account Number: " + t.accountNumber + " Name : " + t.name.toString()+
-			// " Address: " + t.address +" Phone Number: "+t.phoneNumber + "\n" ;
+			
 			model.addRow(new Object[] { n.readKey(), n.readName(), n.readSalary(), n.readAge() });
 			printReport();
 		}

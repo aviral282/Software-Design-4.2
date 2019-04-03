@@ -29,7 +29,7 @@ public class Report_Employee extends JPanel {
 		btn_Generate.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				binarySearch tree = binarySearch.getInstance();
-		
+				
 				tree.printTree();
 				table.setModel(tree.model);
 			}
