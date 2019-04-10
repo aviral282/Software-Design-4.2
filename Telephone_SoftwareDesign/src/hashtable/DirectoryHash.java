@@ -118,6 +118,7 @@ public class DirectoryHash extends JFrame implements Serializable {
 
 				txtNum.setText("");
 				txtName.setText("");
+				textArea1.setText("");
 			}
 		});
 		btnClear.setBounds(12, 345, 179, 41);
